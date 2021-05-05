@@ -1,0 +1,28 @@
+.main-title{text-align: center;}
+
+.header{background-color:blanchedalmond;height:50px;}
+
+.footer{background-color: olive;height:600px;}
+
+.main{background-color: orchid;height:200px;}
+ 
+nav ul{
+   margin-top: 0;
+   margin-bottom:0%;
+   padding-left:0;
+   list-style: none; 
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li{
+    line-height: 3;
+}
+nav ul li a{
+text-decoration: none;   
+
+}
+
+
+
+
+

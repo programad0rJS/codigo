@@ -1,0 +1,52 @@
+.list {
+   list-style-type: decimal-leading-zero;
+}
+.list{
+    list-style-type: lower-roman;
+}
+.list{
+    list-style-type: upper-latin;
+}
+
+span{
+    background:blanchedalmond;
+}
+h1{
+    background:blanchedalmond;
+}
+.list{
+    list-style-type: armenian;
+}
+.list{
+    list-style-type: georgian;
+}   
+.list{
+    list-style-type: none;
+}
+.list_item::before{
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url(green-check-mark.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat:no-repeat ;
+  padding-right: 1em;
+
+}
+.list_item{
+    background-image: url(green-check-mark.png);
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat:no-repeat ;
+  padding-right: 2em;
+
+}
+.list{
+    list-style-position:inside;
+}
+.list_item{
+    background: darkblue;
+}
+
